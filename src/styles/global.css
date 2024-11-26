@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Pilat';
+    src: url('/fonts/PilatWide-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('/fonts/proximanova_regular.ttf') format('truetype');
+}
+
+.tab-button
+{
+    @apply m-4 hover:text-green-300 hover:font-extrabold focus:text-green-300 focus:font-extrabold
+}
+
+body
+{
+    font-family: 'ProximaNova', sans-serif;
+}
